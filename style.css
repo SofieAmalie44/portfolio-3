@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: darkgray;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    position: relative;
+}
+
+nav:hover {
+    background-color: transparent;
+}
+
+nav h1 {
+    font-size: xxx-large;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+    -8px 8px #f48fb1,
+    -12px 12px #7e57c2,
+    -16px 16px #2196f3,
+    -20px 20px #26c6da,
+    -24px 24px #43a047,
+    -28px 28px #eeff41,
+    -32px 32px #f9a825,
+    -36px 36px #ff5722;
+}
+
+
+#imgDiv {
+    background: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+}
+
+#audioAndButtonDiv {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 100px;
+    position: relative;
+}
+
+#audioAndButtonDiv:hover {
+    background: transparent;
+}
+
+
+#playBtn {
+    padding: 2rem 2rem;
+    font-size: 22px;
+    border: none;
+    color: aqua;
+    background: lightsteelblue;
+    cursor: pointer;
+    border-radius: 50px;
+}
