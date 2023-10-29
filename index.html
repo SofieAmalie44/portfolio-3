@@ -6,18 +6,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
-  <h1>Tap a key</h1>
+<nav id="headNav">
+    <div class="navbar">
+        <div class="container nav-container">
+            <label for=""></label><input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <div class="logo">
+                <h1>Tap a key</h1>
+            </div>
+            <div class="menu-items">
+                <li> <p>Rules:</p> </li>
+                <li> <p>Tap any key and create your own beat.</p> </li>
+                <li> <p>If u want to take it to the next level, tap the button (Play) to play background sound to jam to!</p> </li>
+                <br><br><br><br>
+                <li id="note"> <p>NOTE!</p></li>
+                <li> <p>This app does not function on mobile device.</p> </li>
+            </div>
+        </div>
+    </div>
 </nav>
+
 <div id="imgDiv" style="align-content: center" hidden="hidden">
-    <img id="blue" src="Screenshot 2023-10-26 at 15.18.02.png" height="700" width="700">
+    <img id="blue" src="Screenshot 2023-10-26 at 15.18.02.png" height="20" width="30" alt="">
 </div>
 <div id="audioAndButtonDiv">
-    <audio id="playBackAudio" autoplay controls src="looperman-l-5525547-0343968-on-em-2-travis-scott-x-don-toliver.wav" media="audio/mpeg" loop="ininite" hidden="hidden">
+    <audio id="playBackAudio" autoplay controls src="looperman-l-5525547-0343968-on-em-2-travis-scott-x-don-toliver.wav"
+           loop="loop" hidden="hidden">
     </audio>
 
-    <button id="playBtn">Play background sound</button>
+    <button id="playBtn">Play</button>
 </div>
+
 <script src="musik.js"></script>
 </body>
 </html>
