@@ -24,7 +24,7 @@ document.addEventListener('keydown', function(e) {
     if (entry) {
         play(entry.mp3, entry.timeToPlay, entry.seekTime, entry.img, entry.imgHeight, entry.imgWidth);
     }
-    return;
+    return entry;
 });
 
 function play( audio_path, time_in_miliSec, seek_time, image, image_height, image_width) {
